@@ -215,6 +215,15 @@ a { color: var(--navy); }
 }
 .site-nav a:hover { color: var(--navy-d); }
 .site-nav .btn { width: 100%; border-bottom: 0; }
+.site-nav a.btn-primary,
+.site-nav a.btn-primary:hover,
+.site-nav a.btn-primary:focus,
+.site-nav a.btn-primary:visited {
+  color: #fff;
+}
+.site-nav a.btn-primary:hover {
+  background: var(--navy-d);
+}
 
 @keyframes dropIn {
   from { opacity: 0; transform: translateY(-8px); }
