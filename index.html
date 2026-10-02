@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SPHERE — Clinical study &amp; research operations</title>
-  <meta name="description" content="SPHERE is the Statistical Programming Hub for Execution and Reporting Environment — study home, tracker, mock shells, and delivery workflows for biometrics teams." />
+  <meta name="description" content="SPHERE is the Statistical Programming Hub for Execution and Reporting Environment — one governed workspace for mock shells, program tracking, QC, packages, and audit for biometrics teams." />
   <meta name="theme-color" content="#0A3D6F" />
   <link rel="icon" type="image/png" href="assets/sphere-mark-on-paper-256.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,8 +25,10 @@
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Main">
         <ul>
-          <li><a href="#product">Product</a></li>
-          <li><a href="#features">Features</a></li>
+          <li><a href="#who">Who it’s for</a></li>
+          <li><a href="#capabilities">Capabilities</a></li>
+          <li><a href="#delivery">Delivery</a></li>
+          <li><a href="#compliance">Compliance</a></li>
           <li><a href="#how">How it works</a></li>
         </ul>
         <a class="btn btn-primary btn-sm" href="#contact">Request demo</a>
@@ -35,27 +37,27 @@
   </header>
 
   <main id="main">
-    <!-- HERO — ReceptWise structure, SPHERE brand -->
+    <!-- HERO — single product screenshot only -->
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="blob blob-1" aria-hidden="true"></div>
       <div class="blob blob-2" aria-hidden="true"></div>
       <div class="container hero-inner">
         <div class="hero-copy">
           <p class="pill"><span class="pill-dot" aria-hidden="true"></span> Clinical study &amp; research ops</p>
-          <h1 id="hero-title">One workspace for study execution and <span class="hl">reporting.</span></h1>
+          <h1 id="hero-title">One governed workspace from shell to <span class="hl">released result.</span></h1>
           <p class="lead">
-            SPHERE brings study home, program tracker, mock shells, and delivery
-            workflows into a single environment built for biometrics and statistical
-            programming teams.
+            SPHERE is the Statistical Programming Hub for Execution and Reporting Environment —
+            a controlled place for biometrics teams to plan outputs, track programs through QC,
+            and deliver packages without spreadsheets or emailed status.
           </p>
           <div class="hero-ctas">
             <a class="btn btn-primary btn-lg" href="#contact">Request a demo</a>
-            <a class="btn btn-ghost btn-lg" href="#features">See what it does</a>
+            <a class="btn btn-ghost btn-lg" href="#capabilities">Explore capabilities</a>
           </div>
           <ul class="hero-points">
-            <li>Study home</li>
-            <li>Program &amp; TLF tracker</li>
             <li>Mock shells</li>
+            <li>Program &amp; TLF tracker</li>
+            <li>Audit-ready delivery</li>
           </ul>
         </div>
         <div class="hero-art">
@@ -82,148 +84,401 @@
       </svg>
     </section>
 
-    <!-- WHO / TRUST CHIPS -->
-    <section class="section" id="product" aria-labelledby="who-title">
+    <!-- WHO IT’S FOR -->
+    <section class="section" id="who" aria-labelledby="who-title">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Who it’s for</p>
-          <h2 id="who-title">Built for serious study delivery</h2>
-          <p class="section-sub">Biometrics teams who need one operational picture from protocol to package.</p>
+          <h2 id="who-title">Built for biometrics teams who deliver studies</h2>
+          <p class="section-sub">
+            Pharma, biotech, and CRO biometrics — the people who turn clinical trial data into
+            tables, listings, figures, and datasets under inspection pressure.
+          </p>
         </div>
         <ul class="who-grid">
           <li class="who-card">
-            <span class="who-ico ico-navy">📊</span>
-            <h3>Biometrics leads</h3>
-            <p>Study context, cutoffs, and delivery targets in one place.</p>
+            <span class="who-ico ico-navy" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V5M4 19h16M8 15v-4M12 15V8M16 15v-6"/></svg>
+            </span>
+            <h3>Lead statistical programmers</h3>
+            <p>Own the study’s programming plan, assign work, and see stage and ownership without a status spreadsheet.</p>
           </li>
           <li class="who-card">
-            <span class="who-ico ico-paper">🧮</span>
-            <h3>Statistical programmers</h3>
-            <p>Check-out, QC, and freeze without leaving the tracker.</p>
+            <span class="who-ico ico-paper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            </span>
+            <h3>QC programmers</h3>
+            <p>Clear queues of what is waiting for independent QC, with production code read-only and both-run paths when needed.</p>
           </li>
           <li class="who-card">
-            <span class="who-ico ico-soft">📋</span>
-            <h3>CSR &amp; DMC packages</h3>
-            <p>Shells, programs, and files bound to SAP sections.</p>
+            <span class="who-ico ico-soft" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.5-3.5 4-5 7-5s5.5 1.5 7 5"/></svg>
+            </span>
+            <h3>Biostatisticians</h3>
+            <p>Agree shells to the SAP, review results, and approve release to medical writing with a full change history.</p>
           </li>
           <li class="who-card">
-            <span class="who-ico ico-navy">🗂️</span>
-            <h3>SDTM / ADaM / TLF</h3>
-            <p>Library status across Raw through Logs, at a glance.</p>
+            <span class="who-ico ico-navy" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+            </span>
+            <h3>Study &amp; programming leads</h3>
+            <p>Lock shells and datasets after sign-off, watch progress by SAP section, and trust the audit timeline.</p>
           </li>
           <li class="who-card">
-            <span class="who-ico ico-paper">🏛️</span>
-            <h3>PHUSE-ready process</h3>
-            <p>Clear ownership and audit-friendly workflow states.</p>
+            <span class="who-ico ico-paper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6"/></svg>
+            </span>
+            <h3>Medical writers</h3>
+            <p>Know exactly which outputs are released and final — PDF/Word packages in CSR order, not a folder scavenger hunt.</p>
           </li>
           <li class="who-card">
-            <span class="who-ico ico-soft">🔒</span>
-            <h3>QC &amp; freeze gates</h3>
-            <p>In dev → QC → Approved → Frozen, with next actions.</p>
+            <span class="who-ico ico-soft" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 10h8M8 14h5"/></svg>
+            </span>
+            <h3>Data managers &amp; admins</h3>
+            <p>Controlled data landing with checksums, company-wide study layouts, SSO, and module switches — no custom code per customer.</p>
           </li>
         </ul>
       </div>
     </section>
 
-    <!-- FEATURES -->
-    <section class="section section-cream" id="features" aria-labelledby="features-title">
+    <!-- PROBLEM → OUTCOME -->
+    <section class="section section-cream" id="outcomes" aria-labelledby="outcomes-title">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">What SPHERE does</p>
-          <h2 id="features-title">Operational depth without the noise</h2>
-          <p class="section-sub">Core surfaces biometrics teams use every day — designed for clarity under audit pressure.</p>
+          <p class="eyebrow">Why teams adopt SPHERE</p>
+          <h2 id="outcomes-title">Replace guesswork with a single source of study truth</h2>
+          <p class="section-sub">
+            Shells in Word, trackers in Excel, programs in email, logs on a server —
+            SPHERE puts the operational picture in one place.
+          </p>
         </div>
-
-        <div class="feature-grid">
-          <article class="feature-card feature-main">
-            <div class="feature-num" aria-hidden="true">1</div>
-            <div class="feature-body">
-              <h3>Study home that stays with every deliverable</h3>
-              <p>
-                Protocol metadata, library status, and module entry points share one
-                operational picture — so programmers, leads, and reviewers align without
-                status meetings.
-              </p>
-              <ul class="ticks">
-                <li>Sponsor, cutoff, subjects, and delivery targets</li>
-                <li>Raw · SDTM · ADaM · Programs · TLF · Logs</li>
-                <li>Direct paths into Mock Shells, Tracker, and Files</li>
-              </ul>
-            </div>
-            <div class="feature-shot">
-              <img src="assets/shot-study-home.png" alt="SPHERE Study home dashboard" loading="lazy" />
-            </div>
+        <div class="compare-grid">
+          <article class="compare-card">
+            <h3>From scattered shells</h3>
+            <p class="compare-from">Mock shells live in Word; post-sign-off changes are hard to spot.</p>
+            <p class="compare-to"><strong>To structured shells</strong> — draft, in review, final, locked — with edits blocked after lock.</p>
           </article>
-
-          <article class="feature-card feature-with-shot">
-            <div class="feature-num" aria-hidden="true">2</div>
-            <h3>Program &amp; TLF tracker</h3>
-            <p>Group by analysis area. Filter by type, status, tags, and SAP section. Drive check-out, QC, and freeze from one board.</p>
-            <div class="feature-thumb">
-              <img src="assets/shot-tracker-overview.png" alt="SPHERE Tracker overview" loading="lazy" />
-            </div>
+          <article class="compare-card">
+            <h3>From spreadsheet trackers</h3>
+            <p class="compare-from">Status sheets updated by hand and often stale by the next standup.</p>
+            <p class="compare-to"><strong>To a live tracker</strong> — status moves, runs, and role handoffs update the board as work happens.</p>
           </article>
-
-          <article class="feature-card feature-with-shot">
-            <div class="feature-num" aria-hidden="true">3</div>
-            <h3>Row-level accountability</h3>
-            <p>See who has a program checked out, shell lock state, job status, and the next action — Send to QC, Approve, or Freeze.</p>
-            <div class="feature-thumb">
-              <img src="assets/shot-tracker-rows.png" alt="SPHERE Tracker rows" loading="lazy" />
-            </div>
+          <article class="compare-card">
+            <h3>From unclear ownership</h3>
+            <p class="compare-from">Nobody is sure who owns QC or statistical review for an output.</p>
+            <p class="compare-to"><strong>To role clarity</strong> — production, QC, stats, and medical writing shown on every row; “My assignments” for your queue.</p>
           </article>
-
-          <article class="feature-card feature-with-shot">
-            <div class="feature-num" aria-hidden="true">4</div>
-            <h3>Mock shells that match the CSR</h3>
-            <p>Catalog by number and type, edit titles and analysis sets, generate Word/RTF with footnotes and programming notes.</p>
-            <div class="feature-thumb">
-              <img src="assets/shot-mock-shells.png" alt="SPHERE Mock Shells" loading="lazy" />
-            </div>
+          <article class="compare-card">
+            <h3>From folder chaos</h3>
+            <p class="compare-from">Each study invents its own folder layout; logs are hard to find after a run.</p>
+            <p class="compare-to"><strong>To a company layout</strong> — raw · SDTM · ADaM · programs · TLF · logs applied consistently, with runs and logs one click away.</p>
           </article>
-
-          <article class="feature-card feature-with-shot">
-            <div class="feature-num" aria-hidden="true">5</div>
-            <h3>Status you can act on</h3>
-            <p>Shell lock, job completion, and file editability sit beside the action that moves the row forward.</p>
-            <div class="feature-thumb">
-              <img src="assets/shot-tracker-detail.png" alt="SPHERE Tracker detail" loading="lazy" />
-            </div>
+          <article class="compare-card">
+            <h3>From fragmented audit</h3>
+            <p class="compare-from">Evidence spread across file servers, email, and spreadsheets.</p>
+            <p class="compare-to"><strong>To one trail</strong> — append-only history of shells, workflow, runs, locks, data loads, and assistant suggestions.</p>
+          </article>
+          <article class="compare-card">
+            <h3>From cloud data moves</h3>
+            <p class="compare-from">Many tools ask companies to ship sensitive trial data to a vendor.</p>
+            <p class="compare-to"><strong>To your environment</strong> — SPHERE sits on top of the customer’s SAS, R, and file systems; data stays under their IT control.</p>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- CAPABILITIES / MODULES -->
+    <section class="section" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Capabilities</p>
+          <h2 id="capabilities-title">A fixed spine, optional modules</h2>
+          <p class="section-sub">
+            Sign-in, studies, folder layout, and audit are always on. Adopt Mock Shells first,
+            then Tracker, runs, Define, and packages — each useful alone, better together.
+          </p>
+        </div>
+
+        <div class="cap-grid">
+          <article class="cap-card">
+            <div class="cap-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40"><rect x="4" y="6" width="32" height="28" rx="4" fill="#E3EAF2"/><path d="M10 14h20M10 20h14M10 26h10" stroke="#0A3D6F" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Study home</h3>
+            <p>
+              Protocol metadata, sponsor, cutoff, subjects, SAP status, and delivery targets share one
+              operational picture. Library status across Raw · SDTM · ADaM · Programs · TLF · Logs,
+              plus module entry points — so programmers, leads, and reviewers align without status meetings.
+            </p>
+          </article>
+
+          <article class="cap-card">
+            <div class="cap-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40"><rect x="6" y="4" width="28" height="32" rx="3" fill="#F0EDE6"/><path d="M12 12h16M12 18h16M12 24h10" stroke="#0A3D6F" stroke-width="2" stroke-linecap="round"/><circle cx="28" cy="28" r="6" fill="#0A3D6F"/><path d="M26 28l1.5 1.5 3-3" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Mock Shells</h3>
+            <p>
+              Build and edit table, listing, and figure shells as a structured sheet: titles, columns,
+              rows, footnotes, analysis sets, and SAP section. Status moves Draft → In review → Final → Locked.
+              Locked shells cannot be changed. Generate Word/RTF with programming notes; send Final shells to Tracker.
+            </p>
+          </article>
+
+          <article class="cap-card">
+            <div class="cap-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40"><rect x="4" y="8" width="32" height="24" rx="3" fill="#E8F0F7"/><path d="M8 16h8M8 22h12M8 28h6" stroke="#0A3D6F" stroke-width="2" stroke-linecap="round"/><rect x="22" y="14" width="10" height="6" rx="2" fill="#0A3D6F"/><rect x="22" y="24" width="10" height="6" rx="2" fill="#2A6FA8"/></svg>
+            </div>
+            <h3>Program &amp; TLF Tracker</h3>
+            <p>
+              Every table, listing, figure, and dataset tracked with program, owner, status, shell, and job state.
+              Group by analysis area; filter by type, status, tags, and SAP section. Bulk handoffs and runs.
+              Program headers and QC names generated from shell metadata — no retyping drift.
+            </p>
+          </article>
+
+          <article class="cap-card">
+            <div class="cap-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="14" fill="#E3EAF2"/><path d="M14 20h12M20 14v12" stroke="#0A3D6F" stroke-width="2.2" stroke-linecap="round"/><circle cx="20" cy="20" r="5" fill="none" stroke="#0A3D6F" stroke-width="1.6"/></svg>
+            </div>
+            <h3>Runs, queue &amp; logs</h3>
+            <p>
+              Start SAS and R jobs from the Tracker against the customer’s own compute. Watch queue progress,
+              open logs in one click, and keep editable stages separate from read-only review stages —
+              editability follows workflow stage, not check-out theater.
+            </p>
+          </article>
+
+          <article class="cap-card">
+            <div class="cap-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40"><rect x="5" y="8" width="14" height="24" rx="2" fill="#F0EDE6"/><rect x="21" y="8" width="14" height="24" rx="2" fill="#E3EAF2"/><path d="M9 14h6M9 20h6M25 14h6M25 20h6" stroke="#0A3D6F" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>File Explorer &amp; extract</h3>
+            <p>
+              Browse the study folder tree with folder-level access that inherits down the tree.
+              Manual uploads and data-cut snapshots land in raw with checksums and history —
+              so data managers and programmers share one controlled landing zone.
+            </p>
+          </article>
+
+          <article class="cap-card">
+            <div class="cap-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40"><rect x="6" y="6" width="28" height="28" rx="4" fill="#E8F0F7"/><path d="M12 26V14l8 6 8-6v12" stroke="#0A3D6F" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Packages &amp; Define</h3>
+            <p>
+              Assemble PDF and Word packages of locked shells and outputs with a table of contents for CSR or DMC.
+              Draft Define-XML 2.0/2.1 for SDTM/ADaM with human review before release — submission-minded without guessing.
+            </p>
+          </article>
+
+          <article class="cap-card">
+            <div class="cap-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40"><rect x="8" y="10" width="24" height="20" rx="3" fill="#E3EAF2"/><circle cx="20" cy="18" r="3" fill="#0A3D6F"/><path d="M14 26c1.2-2 3.2-3 6-3s4.8 1 6 3" stroke="#0A3D6F" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Ask Copilot (governed)</h3>
+            <p>
+              Context-aware suggestions for TLF assist, log QC, and mapping — draft only.
+              Copilot never locks, runs, or publishes. Every accept or reject is audited so a person always stays in control.
+            </p>
+          </article>
+
+          <article class="cap-card">
+            <div class="cap-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40"><rect x="6" y="8" width="28" height="24" rx="3" fill="#F0EDE6"/><path d="M12 16h16M12 22h12M12 28h8" stroke="#0A3D6F" stroke-width="1.8" stroke-linecap="round"/><circle cx="30" cy="12" r="5" fill="#0A3D6F"/><path d="M28.5 12l1 1 2-2" stroke="#fff" stroke-width="1.4" fill="none"/></svg>
+            </div>
+            <h3>Admin &amp; configuration</h3>
+            <p>
+              Modules on/off, branding, SSO, connectors (settings), Tracker workflow, version control,
+              users and teams, study layout, and compliance preferences — one product configured,
+              never a custom code base per customer.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDY DELIVERY WORKFLOW -->
+    <section class="section section-cream" id="delivery" aria-labelledby="delivery-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Study delivery</p>
+          <h2 id="delivery-title">How work moves from agreed shell to released result</h2>
+          <p class="section-sub">
+            Humans decide; the system records. Workflow stages make editability and next actions obvious.
+          </p>
+        </div>
+
+        <div class="flow-diagram" role="img" aria-label="Workflow: In development, QC, Stats review, Released to medical writing">
+          <div class="flow-step">
+            <span class="flow-badge">1</span>
+            <strong>In development</strong>
+            <span>Programs editable. Production owns the row.</span>
+          </div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step">
+            <span class="flow-badge">2</span>
+            <strong>QC</strong>
+            <span>Independent QC; production read-only. Compare and pass or return.</span>
+          </div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step">
+            <span class="flow-badge">3</span>
+            <strong>Stats review</strong>
+            <span>Biostatistician reviews results against the SAP and shell.</span>
+          </div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step">
+            <span class="flow-badge">4</span>
+            <strong>Released to MW</strong>
+            <span>Outputs final for medical writing packages and CSR assembly.</span>
+          </div>
+        </div>
+
+        <div class="delivery-grid">
+          <article class="delivery-card">
+            <h3>Shells set the plan</h3>
+            <p>
+              Final mock shells seed Tracker records. Titles, analysis sets, SAP sections, and footnotes
+              become the source of truth for program headers and QC naming — generate, don’t retype.
+            </p>
+          </article>
+          <article class="delivery-card">
+            <h3>Roles on every row</h3>
+            <p>
+              Production, QC, stats, and medical writing assignments sit beside status and job state.
+              Leads see progress by SAP section; individuals open “My assignments” for their queue.
+            </p>
+          </article>
+          <article class="delivery-card">
+            <h3>Revise without chaos</h3>
+            <p>
+              When something fails QC or stats, the row returns to a revise stage where edits are allowed again —
+              with history of who moved it, when, and why, instead of a silent overwrite.
+            </p>
+          </article>
+          <article class="delivery-card">
+            <h3>Packages close the loop</h3>
+            <p>
+              Locked shells and released outputs assemble into PDF/Word packages with a table of contents.
+              Define drafts support SDTM/ADaM review before anything ships to submission teams.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPLIANCE / AUDIT -->
+    <section class="section" id="compliance" aria-labelledby="compliance-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Compliance &amp; audit</p>
+          <h2 id="compliance-title">Inspection-minded by design</h2>
+          <p class="section-sub">
+            SPHERE is built so validation and quality teams can follow every material decision —
+            without reconstructing history from email.
+          </p>
+        </div>
+
+        <div class="compliance-layout">
+          <div class="compliance-lead">
+            <h3>Append-only audit trail</h3>
+            <p>
+              Creates, edits, locks, generates, workflow moves, runs, data loads, and Copilot decisions
+              land in a searchable, exportable timeline. Tamper-evident history supports inspections
+              and customer validation evidence.
+            </p>
+            <ul class="ticks">
+              <li>Who acted, on what entity, when</li>
+              <li>Before/after context for material changes</li>
+              <li>Sign-in, sign-out, and failed sign-in recorded</li>
+              <li>Rejected assistant suggestions retained</li>
+            </ul>
+          </div>
+          <ul class="compliance-points">
+            <li>
+              <strong>Customer’s environment, customer’s data</strong>
+              <span>Deploy where trial data already lives. SPHERE does not require shipping patient-level datasets to a vendor cloud.</span>
+            </li>
+            <li>
+              <strong>Humans decide; system records</strong>
+              <span>Locks, approvals, and releases are always a person. Assistants suggest only.</span>
+            </li>
+            <li>
+              <strong>Locks that mean something</strong>
+              <span>Locked shells and gated stages block silent edits. Unlock is an audited action.</span>
+            </li>
+            <li>
+              <strong>Validation-friendly releases</strong>
+              <span>Designed so operational qualification evidence can be generated per release for validated requirements.</span>
+            </li>
+            <li>
+              <strong>SSO &amp; study access</strong>
+              <span>Company single sign-on, role-based access, and per-study access — leavers lose access with the identity system.</span>
+            </li>
+            <li>
+              <strong>No patient data in the app DB</strong>
+              <span>Study datasets stay in the data plane. Operational metadata lives in the application database.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- HOW IT WORKS -->
-    <section class="section" id="how" aria-labelledby="how-title">
+    <section class="section section-cream" id="how" aria-labelledby="how-title">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">How it works</p>
           <h2 id="how-title">From study setup to package delivery</h2>
-          <p class="section-sub">Four clear steps — the same rhythm your team already knows.</p>
+          <p class="section-sub">Five clear steps — the same rhythm serious biometrics teams already know.</p>
         </div>
-        <ol class="steps">
+        <ol class="steps steps-5">
           <li class="step">
             <span class="step-badge" aria-hidden="true">1</span>
             <h3>Stand up the study</h3>
-            <p>Capture protocol, SAP, sponsor, cutoff, and library baselines on Study home.</p>
+            <p>Create the study from the company layout. Capture protocol, SAP, sponsor, cutoff, and library baselines on Study home.</p>
           </li>
           <li class="step">
             <span class="step-badge" aria-hidden="true">2</span>
-            <h3>Author shells &amp; programs</h3>
-            <p>Build mock shells, import programs, and bind them to SAP sections and tags.</p>
+            <h3>Author &amp; lock shells</h3>
+            <p>Build mock shells by SAP section, align with biostatistics, move to Final, and lock when agreed.</p>
           </li>
           <li class="step">
             <span class="step-badge" aria-hidden="true">3</span>
-            <h3>Track QC &amp; freeze</h3>
-            <p>Move work through In dev → QC → Approved → Frozen with clear ownership.</p>
+            <h3>Track programs &amp; runs</h3>
+            <p>Send shells to Tracker, assign roles, develop and run SAS/R, and move work through QC and stats review.</p>
           </li>
           <li class="step">
             <span class="step-badge" aria-hidden="true">4</span>
-            <h3>Deliver the package</h3>
-            <p>Assemble CSR or DMC outputs with files, define, and publisher in the same study context.</p>
+            <h3>Release &amp; package</h3>
+            <p>Release outputs to medical writing. Assemble CSR or DMC packages and Define drafts in the same study context.</p>
+          </li>
+          <li class="step">
+            <span class="step-badge" aria-hidden="true">5</span>
+            <h3>Prove what happened</h3>
+            <p>Export the audit trail. Show who locked, who approved, who ran what, and which suggestion was accepted or rejected.</p>
           </li>
         </ol>
+      </div>
+    </section>
+
+    <!-- PRINCIPLES -->
+    <section class="section" id="principles" aria-labelledby="principles-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Product principles</p>
+          <h2 id="principles-title">Designed to earn trust under pressure</h2>
+          <p class="section-sub">The rules behind the interface — so adoption can be gradual and validation can be serious.</p>
+        </div>
+        <ul class="principles-grid">
+          <li><strong>One product, configured</strong> — differences come from settings and module switches, never a fork per customer.</li>
+          <li><strong>Fixed spine, optional modules</strong> — start with Mock Shells; add Tracker, runs, Define, and packages when ready.</li>
+          <li><strong>Generate, don’t retype</strong> — headers, QC names, folder paths, and auto-numbers derive from the source of truth.</li>
+          <li><strong>One list, many views</strong> — SAP sections, roles, and study details stored once and shown everywhere they matter.</li>
+          <li><strong>Editability follows stage</strong> — programs editable in development and revise; review stages stay read-only.</li>
+          <li><strong>Plain, accessible UI</strong> — readable at zoom, usable in high contrast and by keyboard.</li>
+        </ul>
       </div>
     </section>
 
@@ -233,11 +488,11 @@
         <img class="cta-mark" src="assets/sphere-mark-inverse-256.png" alt="" width="56" height="56" />
         <h2 id="cta-title">See SPHERE on your next study</h2>
         <p class="cta-lead">
-          Request a walkthrough tailored to biometrics workflows — study home,
-          tracker, and mock shells with your process in mind.
+          Request a walkthrough tailored to biometrics workflows — study home, shells, tracker,
+          and audit with your process in mind.
         </p>
         <a class="btn btn-primary btn-lg" href="mailto:hello@sphere.study?subject=SPHERE%20demo%20request">Request a demo</a>
-        <p class="cta-note">Serious booth conversation. No AI pitch deck.</p>
+        <p class="cta-note">Serious booth conversation. No invented case studies.</p>
       </div>
     </section>
   </main>
@@ -249,9 +504,10 @@
         <p>Statistical Programming Hub for Execution and Reporting Environment</p>
       </div>
       <nav class="footer-nav" aria-label="Footer">
-        <a href="#product">Product</a>
-        <a href="#features">Features</a>
-        <a href="#how">How it works</a>
+        <a href="#who">Who it’s for</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#delivery">Delivery</a>
+        <a href="#compliance">Compliance</a>
         <a href="#contact">Request demo</a>
       </nav>
       <p class="footer-copy">© Atulit</p>
