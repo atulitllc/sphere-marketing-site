@@ -11,7 +11,7 @@ Layout rhythm inspired by ReceptWise (soft paper sections, pill CTAs, generous s
 3. Who it’s for — persona cards
 4. Commercial imagery mosaic — workplace / analytics stock photos (not product UI)
 5. Why teams adopt — problem → outcome cards
-6. Split visual — biometrics workplace photo + ops copy
+6. Split visual — team at monitor with SPHERE study home + ops copy
 7. Capabilities — text modules (Study home, Mock Shells, Tracker, Runs, Files, Packages/Define, Copilot, Admin) — no extra UI shots
 8. Split visual — abstract analytics graphic + tracker clarity copy
 9. Study delivery — abstract workflow diagram + delivery cards
@@ -37,7 +37,7 @@ python3 -m http.server 8765
 
 - Brand lockups/marks from `/workspace/sphere-brand/pack/`
 - Single UI shot: Study home
-- Marketing imagery: `img-laptop-work.jpg`, `img-analytics-charts.jpg`, `img-team-laptop-sphere.jpg`, `img-biometrics-pro.jpg`, `img-analytics-graphic.svg`
+- Marketing imagery: `img-laptop-work.jpg`, `img-analytics-charts.jpg`, `img-team-laptop-sphere.jpg`, `img-team-monitor-sphere.jpg`, `img-analytics-graphic.svg`
 
 ## Proof
 
