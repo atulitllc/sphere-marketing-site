@@ -16,7 +16,7 @@ Layout rhythm inspired by ReceptWise (soft paper sections, pill CTAs, generous s
 8. How it works — 5 steps
 9. Product principles
 10. Navy CTA band → Request demo
-11. Footer (tiny © Atulit)
+11. Footer (© SPHERE)
 
 **Product UI policy:** only `assets/shot-study-home.png` appears on the page. Tracker / mock-shells / row detail screenshots are intentionally not shipped (copy-risk).
 
