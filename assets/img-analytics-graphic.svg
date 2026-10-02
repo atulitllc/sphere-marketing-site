@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Abstract analytics dashboard graphic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#062847"/>
+      <stop offset="100%" stop-color="#0A3D6F"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#2A6FA8"/>
+      <stop offset="100%" stop-color="#7EB6E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="24" fill="url(#bg)"/>
+  <rect x="28" y="28" width="584" height="344" rx="16" fill="#0d2f54" opacity="0.55"/>
+  <!-- header chips -->
+  <rect x="48" y="48" width="120" height="28" rx="14" fill="#1A5A96"/>
+  <rect x="180" y="48" width="88" height="28" rx="14" fill="#152a42"/>
+  <rect x="280" y="48" width="88" height="28" rx="14" fill="#152a42"/>
+  <!-- KPI cards -->
+  <rect x="48" y="96" width="160" height="72" rx="12" fill="#12385c"/>
+  <rect x="224" y="96" width="160" height="72" rx="12" fill="#12385c"/>
+  <rect x="400" y="96" width="192" height="72" rx="12" fill="#12385c"/>
+  <text x="64" y="122" fill="#9ec3e8" font-family="Inter,system-ui,sans-serif" font-size="12">Programs in QC</text>
+  <text x="64" y="148" fill="#fff" font-family="Inter,system-ui,sans-serif" font-size="26" font-weight="700">42</text>
+  <text x="240" y="122" fill="#9ec3e8" font-family="Inter,system-ui,sans-serif" font-size="12">Shells locked</text>
+  <text x="240" y="148" fill="#fff" font-family="Inter,system-ui,sans-serif" font-size="26" font-weight="700">118</text>
+  <text x="416" y="122" fill="#9ec3e8" font-family="Inter,system-ui,sans-serif" font-size="12">Released to MW</text>
+  <text x="416" y="148" fill="#fff" font-family="Inter,system-ui,sans-serif" font-size="26" font-weight="700">67</text>
+  <!-- bars -->
+  <g transform="translate(48,196)">
+    <rect x="0" y="120" width="40" height="40" rx="6" fill="url(#bar)" opacity="0.55"/>
+    <rect x="56" y="90" width="40" height="70" rx="6" fill="url(#bar)" opacity="0.7"/>
+    <rect x="112" y="60" width="40" height="100" rx="6" fill="url(#bar)" opacity="0.85"/>
+    <rect x="168" y="40" width="40" height="120" rx="6" fill="url(#bar)"/>
+    <rect x="224" y="70" width="40" height="90" rx="6" fill="url(#bar)" opacity="0.75"/>
+    <rect x="280" y="30" width="40" height="130" rx="6" fill="url(#bar)"/>
+    <rect x="336" y="50" width="40" height="110" rx="6" fill="url(#bar)" opacity="0.9"/>
+    <rect x="392" y="20" width="40" height="140" rx="6" fill="url(#bar)"/>
+    <rect x="448" y="55" width="40" height="105" rx="6" fill="url(#bar)" opacity="0.8"/>
+    <rect x="504" y="35" width="40" height="125" rx="6" fill="url(#bar)"/>
+  </g>
+  <!-- sparkline -->
+  <polyline points="48,210 90,200 130,205 170,185 220,190 270,170 320,175 380,155 440,160 520,140 584,145"
+            fill="none" stroke="#7EB6E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+</svg>
