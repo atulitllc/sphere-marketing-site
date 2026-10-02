@@ -37,7 +37,7 @@ python3 -m http.server 8765
 
 - Brand lockups/marks from `/workspace/sphere-brand/pack/`
 - Single UI shot: Study home
-- Marketing imagery: `img-laptop-work.jpg`, `img-analytics-charts.jpg`, `img-office-meeting.jpg`, `img-biometrics-pro.jpg`, `img-analytics-graphic.svg`
+- Marketing imagery: `img-laptop-work.jpg`, `img-analytics-charts.jpg`, `img-team-laptop-sphere.jpg`, `img-biometrics-pro.jpg`, `img-analytics-graphic.svg`
 
 ## Proof
 
